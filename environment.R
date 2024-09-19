@@ -72,8 +72,8 @@ fish # print my object `fish`
 fish<-read.table('C:/Users/user/Downloads/reef_fish.txt', header=T, sep='\t', dec='.') 
 
 ## # import file by path name
-## fish<-read.table ("D:/.../data/reef_fish.txt",header = TRUE,sep="\t", dec=".")# long version
-## fish<-read.table("D:/.../data/reef_fish.txt", TRUE, "\t",".")# short version
+## fish<-read.table ("C:/Users/user/Downloads/reef_fish.txt",header = TRUE,sep="\t", dec=".")# long version
+## fish<-read.table("C:/Users/user/Downloads/reef_fish.txt", TRUE, "\t",".")# short version
 
 ## fish<-read.table(file.choose (), header = TRUE,sep="\t", dec=".")
 
