@@ -352,14 +352,16 @@ barplot(fish$richness, main="Top 10 reef fish Richness (Allen, 2000)", horiz=TRU
 ## Git
 install.packages('usethis')
 library('usethis')
-use_git_config(uaer.name='kuan chun',user.email='kuanchun2001@gmail.com')
-
+use_git_config(user.name='kuanchun',user.email='kuanchun2001@gmail.com')
+use_git()
 
 
 ## GitHub
-
-Simply open an account
-
+library('usethis')
+create_github_token()
+library(gitcreds)
+gitcreds_set()
+use_github()
 
 ## Integration to RStudio
 
